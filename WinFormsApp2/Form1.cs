@@ -1,5 +1,6 @@
 namespace WinFormsApp2
 {
+
     public partial class Form1 : Form
     {
         public Form1()
@@ -62,13 +63,19 @@ namespace WinFormsApp2
 
         private void btn8_Click(object sender, EventArgs e)
         {
+
             int num = 8;
+            int somma = 0;
+            somma = somma + num;
             label2.Text += num.ToString();
         }
 
         private void btn9_Click(object sender, EventArgs e)
         {
+
             int num = 9;
+            int somma = 0;
+            somma = somma + num;
             label2.Text += num.ToString();
         }
 
@@ -82,5 +89,24 @@ namespace WinFormsApp2
         {
             
         }
+
+        private void btnMeno_Click(object sender, EventArgs e)
+        {
+            string ope = "-";
+            label2.Text += ope;
+        }
+
+        private void btnReset_Click(object sender, EventArgs e)
+        {
+            label2.Text = "";
+        }
+
+        private void btnPer_Click(object sender, EventArgs e)
+        {
+            string ope = "x";
+            label2.Text += ope;
+        }
+
+       
     }
 }
