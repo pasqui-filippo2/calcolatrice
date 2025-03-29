@@ -66,7 +66,7 @@ namespace WinFormsApp2
 
             int num = 8;
             int somma = 0;
-            somma = somma + num;
+           
             label2.Text += num.ToString();
         }
 
@@ -75,7 +75,7 @@ namespace WinFormsApp2
 
             int num = 9;
             int somma = 0;
-            somma = somma + num;
+          
             label2.Text += num.ToString();
         }
 
@@ -87,7 +87,7 @@ namespace WinFormsApp2
 
         private void btnUguale_Click(object sender, EventArgs e)
         {
-            
+           
         }
 
         private void btnMeno_Click(object sender, EventArgs e)
