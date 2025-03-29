@@ -45,6 +45,7 @@
             btnReset = new Button();
             label1 = new Label();
             label2 = new Label();
+            textBox1 = new TextBox();
             SuspendLayout();
             // 
             // btn0
@@ -221,7 +222,7 @@
             label1.AutoSize = true;
             label1.BackColor = SystemColors.Info;
             label1.BorderStyle = BorderStyle.FixedSingle;
-            label1.Location = new Point(408, 124);
+            label1.Location = new Point(72, 252);
             label1.Name = "label1";
             label1.Size = new Size(15, 17);
             label1.TabIndex = 16;
@@ -234,16 +235,24 @@
             label2.BackColor = SystemColors.Info;
             label2.Font = new Font("Showcard Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label2.ForeColor = SystemColors.ActiveCaptionText;
-            label2.Location = new Point(319, 123);
+            label2.Location = new Point(173, 123);
             label2.Name = "label2";
             label2.Size = new Size(0, 15);
             label2.TabIndex = 17;
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(291, 117);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(100, 23);
+            textBox1.TabIndex = 18;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 449);
+            Controls.Add(textBox1);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(btnReset);
@@ -286,5 +295,6 @@
         private Button btnReset;
         private Label label1;
         private Label label2;
+        private TextBox textBox1;
     }
 }
